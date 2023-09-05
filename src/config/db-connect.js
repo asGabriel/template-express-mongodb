@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 async function databaseConnection() {
-    mongoose.connect("mongodb://localhost:27017")
+    mongoose.connect(process.env.DATABASE_URL)
     return mongoose.connection;
 }
 

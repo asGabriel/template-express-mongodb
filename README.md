@@ -1,5 +1,5 @@
 # Apresentação
-Esse é um projeto template das minhas aplicações em node.js que utiliza Express e MongoDB.
+Esse é um projeto template das minhas aplicações em node.js que utiliza Express, MongoDB e PrismaORM.
 
 # NPMs
 npm init -y
@@ -14,6 +14,10 @@ npm i express
 
 npm i mongodb
 npm i mongoose
+
+npm i dotenv
+
+npm i
 
 # Documentos de referencia
 https://expressjs.com/
